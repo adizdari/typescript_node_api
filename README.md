@@ -1,5 +1,5 @@
 # typescript_node_api
-This is a repository that includes a service which responds with the list of users in GitHub corresponding to a given name and language they use. The GitHub API can be found: https://developer.github.com/v3/)
+This is a repository that includes a service which responds with the list of users in GitHub corresponding to a given name and language they use. The GitHub API can be found: https://developer.github.com/v3/
 
 ## Techstack
 
