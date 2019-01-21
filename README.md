@@ -23,4 +23,5 @@ In development mode the application port is configured to `3000`.
 * `docker run adizdari/typescript_node_api` to start server in docker container
 * Server will run on `http://localhost:3000`
 
-## Tests
+### Tests
+* `npm run test`
