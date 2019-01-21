@@ -1,0 +1,8 @@
+---
+version: "3.0"
+services:
+  app:
+    build: .
+    image: adizdari/typescript_node_api
+    ports:
+      - "3000:3000"
