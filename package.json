@@ -2,20 +2,24 @@
   "name": "typescript_node_api",
   "scripts": {
     "dev": "nodemon --exec 'ts-node --cache-directory .tscache' src/server.ts",
-    "start": "ts-node src/server.ts"
+    "start": "ts-node src/server.ts",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
   },
   "author": "Alsida Dizdari",
   "devDependencies": {
     "@types/chai": "^4.1.7",
+    "@types/chai-http": "^3.0.5",
     "@types/express": "^4.16.0",
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.12.18",
     "@types/request": "^2.48.1",
     "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
     "express": "^4.16.4",
     "mocha": "^5.2.0",
     "request": "^2.88.0",
     "ts-node": "^7.0.1",
+    "typescript": "^3.2.4",
     "typings": "^2.1.1"
   }
 }
